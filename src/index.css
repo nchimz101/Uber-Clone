@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mapboxgl-ctrl-geocoder {
+  width: 100% !important;
+  max-width: none !important;
+  box-shadow: none !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+
+.mapboxgl-ctrl-geocoder input {
+  padding-left: 3rem !important;
+}
+
+.geocoder {
+  width: 100%;
+}
